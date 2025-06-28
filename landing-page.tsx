@@ -53,10 +53,10 @@ export default function Component() {
   const properties = [
     {
       id: 1,
-      image: "/images/house1.jpg",
+      image: "/The-Key-demo-2/images/house1.jpg",
       title: "Villa Moderne",
       location: "Paris 16ème",
-      price: "850 000 €",
+      price: "850 000 dhs",
       type: "Vente",
       bedrooms: 4,
       bathrooms: 3,
@@ -64,10 +64,10 @@ export default function Component() {
     },
     {
       id: 2,
-      image: "/images/house2.jpg",
+      image: "/The-Key-demo-2/images/house2.jpg",
       title: "Appartement Luxueux",
       location: "Lyon Centre",
-      price: "2 800 €/mois",
+      price: "2 800 dhs/mois",
       type: "Location",
       bedrooms: 3,
       bathrooms: 2,
@@ -75,10 +75,10 @@ export default function Component() {
     },
     {
       id: 3,
-      image: "/images/house3.jpg",
+      image: "/The-Key-demo-2/images/house3.jpg",
       title: "Maison Contemporaine",
       location: "Marseille",
-      price: "650 000 €",
+      price: "650 000 dhs",
       type: "Vente",
       bedrooms: 5,
       bathrooms: 3,
@@ -86,10 +86,10 @@ export default function Component() {
     },
     {
       id: 4,
-      image: "/images/house4.jpg",
+      image: "/The-Key-demo-2/images/house4.jpg",
       title: "Penthouse Vue Mer",
       location: "Nice",
-      price: "1 200 000 €",
+      price: "1 200 000 dhs",
       type: "Vente",
       bedrooms: 3,
       bathrooms: 2,
@@ -97,10 +97,10 @@ export default function Component() {
     },
     {
       id: 5,
-      image: "/images/house5.jpg",
+      image: "/The-Key-demo-2/images/house5.jpg",
       title: "Loft Industriel",
       location: "Bordeaux",
-      price: "1 800 €/mois",
+      price: "1 800 dhs/mois",
       type: "Location",
       bedrooms: 2,
       bathrooms: 1,
@@ -108,10 +108,10 @@ export default function Component() {
     },
     {
       id: 6,
-      image: "/images/house6.jpg",
+      image: "/The-Key-demo-2/images/house6.jpg",
       title: "Villa avec Piscine",
       location: "Cannes",
-      price: "2 100 000 €",
+      price: "2 100 000 dhs",
       type: "Vente",
       bedrooms: 6,
       bathrooms: 4,
@@ -208,7 +208,7 @@ export default function Component() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-background.jpg"
+            src="/The-Key-demo-2/images/hero-background.jpg"
             alt="Modern architecture background"
             fill
             className="object-cover"
