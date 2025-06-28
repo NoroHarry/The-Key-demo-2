@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/The-Key-demo-2',
+  assetPrefix: '/The-Key-demo-2/',
   trailingSlash: true,
 
   eslint: {
